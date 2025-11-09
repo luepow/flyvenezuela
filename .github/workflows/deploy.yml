@@ -1,0 +1,61 @@
+name: Deploy to Production
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    name: Deploy to espirituviajero.net
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Deploy to Server
+        uses: appleboy/ssh-action@v1.0.0
+        with:
+          host: ${{ secrets.SERVER_HOST }}
+          username: root
+          password: ${{ secrets.SERVER_PASSWORD }}
+          port: 22
+          script: |
+            # Create directory if it doesn't exist
+            mkdir -p /var/www/next/espirituviajero
+
+            # Clone or update repository
+            if [ -d "/var/www/next/espirituviajero/.git" ]; then
+              echo "Repository exists, pulling latest changes..."
+              cd /var/www/next/espirituviajero
+              git pull origin main
+            else
+              echo "Cloning repository..."
+              git clone https://github.com/${{ github.repository }}.git /var/www/next/espirituviajero
+              cd /var/www/next/espirituviajero
+            fi
+
+            # Create .env.production if it doesn't exist
+            if [ ! -f .env.production ]; then
+              echo "Creating .env.production from example..."
+              cp .env.production.example .env.production
+              echo "⚠️  WARNING: Please edit /var/www/next/espirituviajero/.env.production with actual values"
+            fi
+
+            # Make deploy script executable
+            chmod +x deploy.sh
+
+            # Run deployment script
+            ./deploy.sh
+
+      - name: Send deployment notification
+        if: always()
+        run: |
+          if [ "${{ job.status }}" == "success" ]; then
+            echo "✅ Deployment to espirituviajero.net completed successfully!"
+          else
+            echo "❌ Deployment failed!"
+            exit 1
+          fi
