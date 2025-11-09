@@ -1,0 +1,116 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "login": "Iniciar Sesión",
+    "register": "Registrarse",
+    "dashboard": "Panel"
+  },
+  "hero": {
+    "title": "Planifica tu Vuelo en Venezuela",
+    "subtitle": "Servicios aeroportuarios profesionales para pilotos y empresas",
+    "description": "Cotiza y gestiona tus planes de vuelo con facilidad. Conectamos pilotos, empresas y proveedores de servicios aeroportuarios.",
+    "cta": "Solicitar Cotización",
+    "cta_secondary": "Conoce Más"
+  },
+  "features": {
+    "title": "¿Por qué FlyVenezuela?",
+    "subtitle": "La plataforma más completa para la aviación en Venezuela",
+    "feature1_title": "Cotización Rápida",
+    "feature1_desc": "Obtén cotizaciones de servicios aeroportuarios en minutos",
+    "feature2_title": "Red de Proveedores",
+    "feature2_desc": "Accede a una red verificada de proveedores de servicios",
+    "feature3_title": "Gestión Centralizada",
+    "feature3_desc": "Administra todos tus planes de vuelo desde un solo lugar",
+    "feature4_title": "Soporte 24/7",
+    "feature4_desc": "Asistencia profesional cuando la necesites"
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "subtitle": "Todo lo que necesitas para tu operación aérea",
+    "service1_title": "Planificación de Vuelo",
+    "service1_desc": "Planifica rutas, obtén permisos y gestiona documentación",
+    "service2_title": "Servicios de Rampa",
+    "service2_desc": "Combustible, handling, limpieza y más",
+    "service3_title": "Servicios de Pasajeros",
+    "service3_desc": "VIP lounge, transporte terrestre, catering",
+    "service4_title": "Mantenimiento",
+    "service4_desc": "Conecta con talleres certificados"
+  },
+  "cta": {
+    "title": "¿Listo para despegar?",
+    "subtitle": "Únete a FlyVenezuela hoy y simplifica tus operaciones aéreas",
+    "button": "Comenzar Ahora"
+  },
+  "contact": {
+    "title": "Contáctanos",
+    "subtitle": "Estamos aquí para ayudarte",
+    "name": "Nombre",
+    "email": "Correo Electrónico",
+    "phone": "Teléfono",
+    "message": "Mensaje",
+    "send": "Enviar Mensaje",
+    "info_title": "Información de Contacto",
+    "address": "Caracas, Venezuela",
+    "success": "Mensaje enviado exitosamente"
+  },
+  "auth": {
+    "login_title": "Iniciar Sesión",
+    "register_title": "Crear Cuenta",
+    "email": "Correo Electrónico",
+    "password": "Contraseña",
+    "confirm_password": "Confirmar Contraseña",
+    "full_name": "Nombre Completo",
+    "company": "Empresa (Opcional)",
+    "phone": "Teléfono",
+    "user_type": "Tipo de Usuario",
+    "user_type_client": "Cliente/Piloto",
+    "user_type_provider": "Proveedor de Servicios",
+    "login_button": "Ingresar",
+    "register_button": "Registrarse",
+    "no_account": "¿No tienes cuenta?",
+    "have_account": "¿Ya tienes cuenta?",
+    "login_link": "Inicia sesión aquí",
+    "register_link": "Regístrate aquí"
+  },
+  "dashboard": {
+    "welcome": "Bienvenido",
+    "my_quotes": "Mis Cotizaciones",
+    "new_quote": "Nueva Cotización",
+    "profile": "Perfil",
+    "logout": "Cerrar Sesión",
+    "admin_panel": "Panel de Administración",
+    "users": "Usuarios",
+    "all_quotes": "Todas las Cotizaciones",
+    "settings": "Configuración"
+  },
+  "quote": {
+    "title": "Solicitar Cotización",
+    "flight_details": "Detalles del Vuelo",
+    "departure": "Aeropuerto de Salida",
+    "arrival": "Aeropuerto de Llegada",
+    "date": "Fecha del Vuelo",
+    "time": "Hora",
+    "aircraft_type": "Tipo de Aeronave",
+    "passengers": "Número de Pasajeros",
+    "services_needed": "Servicios Requeridos",
+    "fuel": "Combustible",
+    "handling": "Handling",
+    "catering": "Catering",
+    "transport": "Transporte",
+    "vip_lounge": "Sala VIP",
+    "additional_info": "Información Adicional",
+    "submit": "Enviar Solicitud",
+    "success": "Cotización enviada exitosamente"
+  },
+  "footer": {
+    "description": "Tu socio de confianza para servicios aeroportuarios en Venezuela",
+    "quick_links": "Enlaces Rápidos",
+    "legal": "Legal",
+    "privacy": "Privacidad",
+    "terms": "Términos",
+    "rights": "Todos los derechos reservados"
+  }
+}

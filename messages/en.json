@@ -1,0 +1,116 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact",
+    "login": "Login",
+    "register": "Sign Up",
+    "dashboard": "Dashboard"
+  },
+  "hero": {
+    "title": "Plan Your Flight in Venezuela",
+    "subtitle": "Professional airport services for pilots and companies",
+    "description": "Quote and manage your flight plans with ease. We connect pilots, companies and airport service providers.",
+    "cta": "Request Quote",
+    "cta_secondary": "Learn More"
+  },
+  "features": {
+    "title": "Why FlyVenezuela?",
+    "subtitle": "The most complete platform for aviation in Venezuela",
+    "feature1_title": "Fast Quotes",
+    "feature1_desc": "Get airport service quotes in minutes",
+    "feature2_title": "Provider Network",
+    "feature2_desc": "Access a verified network of service providers",
+    "feature3_title": "Centralized Management",
+    "feature3_desc": "Manage all your flight plans from one place",
+    "feature4_title": "24/7 Support",
+    "feature4_desc": "Professional assistance when you need it"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Everything you need for your air operation",
+    "service1_title": "Flight Planning",
+    "service1_desc": "Plan routes, obtain permits and manage documentation",
+    "service2_title": "Ramp Services",
+    "service2_desc": "Fuel, handling, cleaning and more",
+    "service3_title": "Passenger Services",
+    "service3_desc": "VIP lounge, ground transport, catering",
+    "service4_title": "Maintenance",
+    "service4_desc": "Connect with certified workshops"
+  },
+  "cta": {
+    "title": "Ready for takeoff?",
+    "subtitle": "Join FlyVenezuela today and simplify your air operations",
+    "button": "Get Started"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We're here to help",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "message": "Message",
+    "send": "Send Message",
+    "info_title": "Contact Information",
+    "address": "Caracas, Venezuela",
+    "success": "Message sent successfully"
+  },
+  "auth": {
+    "login_title": "Login",
+    "register_title": "Create Account",
+    "email": "Email",
+    "password": "Password",
+    "confirm_password": "Confirm Password",
+    "full_name": "Full Name",
+    "company": "Company (Optional)",
+    "phone": "Phone",
+    "user_type": "User Type",
+    "user_type_client": "Client/Pilot",
+    "user_type_provider": "Service Provider",
+    "login_button": "Sign In",
+    "register_button": "Sign Up",
+    "no_account": "Don't have an account?",
+    "have_account": "Already have an account?",
+    "login_link": "Sign in here",
+    "register_link": "Sign up here"
+  },
+  "dashboard": {
+    "welcome": "Welcome",
+    "my_quotes": "My Quotes",
+    "new_quote": "New Quote",
+    "profile": "Profile",
+    "logout": "Logout",
+    "admin_panel": "Admin Panel",
+    "users": "Users",
+    "all_quotes": "All Quotes",
+    "settings": "Settings"
+  },
+  "quote": {
+    "title": "Request Quote",
+    "flight_details": "Flight Details",
+    "departure": "Departure Airport",
+    "arrival": "Arrival Airport",
+    "date": "Flight Date",
+    "time": "Time",
+    "aircraft_type": "Aircraft Type",
+    "passengers": "Number of Passengers",
+    "services_needed": "Services Needed",
+    "fuel": "Fuel",
+    "handling": "Handling",
+    "catering": "Catering",
+    "transport": "Transport",
+    "vip_lounge": "VIP Lounge",
+    "additional_info": "Additional Information",
+    "submit": "Submit Request",
+    "success": "Quote sent successfully"
+  },
+  "footer": {
+    "description": "Your trusted partner for airport services in Venezuela",
+    "quick_links": "Quick Links",
+    "legal": "Legal",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "rights": "All rights reserved"
+  }
+}
